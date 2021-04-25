@@ -1,0 +1,115 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html {
+  font-size: 62.5%;
+}
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: left;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* 上の例は下線も何も付いていない状態ですが、下線を付けたりしたい場合はtext-decorationの値を、underline（下線）、overline（オーバーライン）、line-through（取り消し線）、blink（点滅）などに変えましょう。
+  訪問済みリンクの設定です。 */
+a:visited {
+  text-decoration: none;
+}
+
+/* リンクが付いている箇所をロールオーバーした時の設定です。 */
+a:hover {
+  text-decoration: none;
+}
+
+/* 次に、画像にリンクを張った時画像の周りにボーダーができてしまうので、これ消去します。 */
+a img {
+  border-width: 0px;
+  border-style: none;
+  border-color: #fff;
+  background: transparent;
+}
+
+button:focus {
+  outline: 0;
+}
