@@ -38,17 +38,16 @@
   justify-content: space-between;
 }
 
-.nav__item {
-  padding: 0 10px;
-}
-
-.nav__item:hover {
-  border-bottom: 3px solid #a4f5ee;
-}
-
 .nav__link {
+  display: block;
+  padding: 0 10px;
   line-height: 42px;
   color: #000000;
+}
+
+.nav__link:hover {
+  color: #31c5b9;
+  border-bottom: 2px solid #a4f5ee;
 }
 
 .nav__icon {
@@ -132,7 +131,6 @@
 }
 
 .business-details__img > img {
-  /* max-width: 600px; */
   height: 400px;
   object-fit: cover;
   box-sizing: border-box;
@@ -173,4 +171,49 @@
 .business-details__link:hover {
   color: #fff;
   background-color: #31c5b9;
+}
+
+.employment {
+  padding: 120px 0;
+  background-color: rgb(252, 252, 252);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.employment__title {
+  font-size: 5rem;
+  padding: 40px 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.employment__text {
+  width: 70%;
+  line-height: 40px;
+  font-size: 2.4rem;
+  margin: 0 auto 100px;
+}
+
+.table {
+  width: 70%;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+.table__head > tr > th {
+  text-align: center;
+  padding: 40px 0;
+  background-color: rgb(164, 245, 238, 0.7);
+}
+
+.table__head > tr > th:first-child {
+  width: 20%;
+}
+
+.table__body > tr > th {
+  padding-left: 20px;
+}
+
+.table__body > tr > td {
+  text-align: left;
+  padding: 30px;
 }
